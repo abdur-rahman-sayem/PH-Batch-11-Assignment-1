@@ -267,3 +267,42 @@ button.visoin-button {
     padding: 38px 38px;
     border-radius: 20px;
 }
+
+.donate-box-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+}
+.donate-box-container .donate-box{
+    border-radius: 13px;
+    padding: 32px;
+    color: rgba(14,14,14,.7);
+    background-color: white;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+form.donate-form {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+form.donate-form > input {
+    padding: 13px 24px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+form.donate-form > button {
+    width: 110px;
+    height: 45px;
+    margin: auto;
+    background: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
