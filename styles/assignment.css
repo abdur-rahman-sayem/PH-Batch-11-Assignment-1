@@ -306,3 +306,24 @@ form.donate-form > button {
     color: white;
     font-weight: 500;
 }
+/* footer styles */
+.footer-layout {
+    text-align: center;
+    margin: auto;
+}
+.footer-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+footer{
+    padding: 40px 128px;
+}
+.footer-layout h2{
+    margin-bottom: 20px;
+}
+hr{
+    border-color: rgba(14, 14, 14, .1)
+}
